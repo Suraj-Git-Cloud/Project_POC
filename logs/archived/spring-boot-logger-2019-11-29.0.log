@@ -1,0 +1,253 @@
+2019-11-29 12:47:21,076 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProjectRoboBankApplication on DESKTOP-O1B8D53 with PID 11532 (D:\STS_Workspaces\Workspaces\Project_RoboBank\target\classes started by Suraj Gupta in D:\STS_Workspaces\Workspaces\Project_RoboBank)
+2019-11-29 12:47:21,082 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-29 12:47:22,383 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8096 (http)
+2019-11-29 12:47:22,392 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8096"]
+2019-11-29 12:47:22,394 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-11-29 12:47:22,395 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-29 12:47:22,540 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-11-29 12:47:22,541 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1415 ms
+2019-11-29 12:47:22,934 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 12:47:23,181 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8096"]
+2019-11-29 12:47:23,210 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8096 (http) with context path ''
+2019-11-29 12:47:23,215 INFO org.springframework.boot.StartupInfoLogger [main] Started ProjectRoboBankApplication in 2.762 seconds (JVM running for 4.206)
+2019-11-29 12:47:30,495 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8096-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-29 12:47:30,496 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8096-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-11-29 12:47:30,502 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8096-exec-2] Completed initialization in 6 ms
+2019-11-29 12:47:30,530 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-2] In reportData() CustomerStatementController 
+2019-11-29 12:47:30,531 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-2] In readFile() CustomerStatementServiceImpl 
+2019-11-29 12:47:30,531 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-2] In readFileCSV() StatementRepository 
+2019-11-29 12:47:30,532 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-2] In initializeDataFromFile() StatmentUtils 
+2019-11-29 12:47:34,782 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-3] In reportData() CustomerStatementController 
+2019-11-29 12:47:34,783 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-3] In readFile() CustomerStatementServiceImpl 
+2019-11-29 12:47:34,785 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-3] In readFileCSV() StatementRepository 
+2019-11-29 12:47:34,785 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-3] In initializeDataFromFile() StatmentUtils 
+2019-11-29 12:47:35,522 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-4] In reportData() CustomerStatementController 
+2019-11-29 12:47:35,522 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-4] In readFile() CustomerStatementServiceImpl 
+2019-11-29 12:47:35,523 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-4] In readFileCSV() StatementRepository 
+2019-11-29 12:47:35,524 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-4] In initializeDataFromFile() StatmentUtils 
+2019-11-29 12:47:36,212 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-5] In reportData() CustomerStatementController 
+2019-11-29 12:47:36,213 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-5] In readFile() CustomerStatementServiceImpl 
+2019-11-29 12:47:36,213 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-5] In readFileCSV() StatementRepository 
+2019-11-29 12:47:36,214 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-5] In initializeDataFromFile() StatmentUtils 
+2019-11-29 12:47:43,355 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-6] In reportData() CustomerStatementController 
+2019-11-29 12:47:43,356 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-6] In readFile() CustomerStatementServiceImpl 
+2019-11-29 12:47:43,357 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-6] In readFileXML() StatementRepository 
+2019-11-29 12:47:43,357 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-6] In initializeDataFile() StatmentUtils 
+2019-11-29 12:47:44,179 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-7] In reportData() CustomerStatementController 
+2019-11-29 12:47:44,180 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-7] In readFile() CustomerStatementServiceImpl 
+2019-11-29 12:47:44,180 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-7] In readFileXML() StatementRepository 
+2019-11-29 12:47:44,181 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-7] In initializeDataFile() StatmentUtils 
+2019-11-29 13:09:42,632 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(32)-127.0.0.1] Application shutdown requested.
+2019-11-29 13:09:42,642 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(32)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 13:10:04,133 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProjectRoboBankApplication on DESKTOP-O1B8D53 with PID 12864 (D:\STS_Workspaces\Workspaces\Project_RoboBank\target\classes started by Suraj Gupta in D:\STS_Workspaces\Workspaces\Project_RoboBank)
+2019-11-29 13:10:04,144 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-29 13:10:06,166 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8096 (http)
+2019-11-29 13:10:06,180 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8096"]
+2019-11-29 13:10:06,182 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-11-29 13:10:06,182 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-29 13:10:06,339 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-11-29 13:10:06,340 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2109 ms
+2019-11-29 13:10:06,829 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 13:10:07,199 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8096"]
+2019-11-29 13:10:07,287 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8096 (http) with context path ''
+2019-11-29 13:10:07,325 INFO org.springframework.boot.StartupInfoLogger [main] Started ProjectRoboBankApplication in 4.09 seconds (JVM running for 9.711)
+2019-11-29 13:10:55,879 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8096-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-29 13:10:55,880 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8096-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-11-29 13:10:55,894 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8096-exec-1] Completed initialization in 13 ms
+2019-11-29 13:11:10,010 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-1] In reportData() CustomerStatementController 
+2019-11-29 13:11:10,045 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-1] In readFile() CustomerStatementServiceImpl 
+2019-11-29 13:11:16,359 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-1] In readFileXML() StatementRepository 
+2019-11-29 13:11:16,388 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-1] In initializeDataFile() StatmentUtils 
+2019-11-29 13:11:16,899 ERROR com.robobank.repository.StatementRepository [http-nio-8096-exec-1] null
+2019-11-29 13:13:22,708 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(13)-127.0.0.1] Application shutdown requested.
+2019-11-29 13:13:22,715 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(13)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 13:13:34,012 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProjectRoboBankApplication on DESKTOP-O1B8D53 with PID 13616 (D:\STS_Workspaces\Workspaces\Project_RoboBank\target\classes started by Suraj Gupta in D:\STS_Workspaces\Workspaces\Project_RoboBank)
+2019-11-29 13:13:34,020 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-29 13:13:35,302 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8096 (http)
+2019-11-29 13:13:35,313 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8096"]
+2019-11-29 13:13:35,314 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-11-29 13:13:35,315 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-29 13:13:35,430 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-11-29 13:13:35,431 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1293 ms
+2019-11-29 13:13:35,726 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 13:13:35,939 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8096"]
+2019-11-29 13:13:35,971 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8096 (http) with context path ''
+2019-11-29 13:13:35,976 INFO org.springframework.boot.StartupInfoLogger [main] Started ProjectRoboBankApplication in 2.814 seconds (JVM running for 4.143)
+2019-11-29 13:13:49,222 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8096-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-29 13:13:49,223 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8096-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-11-29 13:13:49,240 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8096-exec-2] Completed initialization in 16 ms
+2019-11-29 13:13:49,310 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-2] In reportData() CustomerStatementController 
+2019-11-29 13:13:49,311 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-2] In readFile() CustomerStatementServiceImpl 
+2019-11-29 13:13:49,317 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-2] In readFileXML() StatementRepository 
+2019-11-29 13:13:49,320 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-2] In initializeDataFile() StatmentUtils 
+2019-11-29 13:13:49,386 ERROR com.robobank.repository.StatementRepository [http-nio-8096-exec-2] null
+2019-11-29 13:13:56,483 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-3] In reportData() CustomerStatementController 
+2019-11-29 13:13:56,485 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-3] In readFile() CustomerStatementServiceImpl 
+2019-11-29 13:13:56,485 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-3] In readFileCSV() StatementRepository 
+2019-11-29 13:13:56,486 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-3] In initializeDataFromFile() StatmentUtils 
+2019-11-29 13:13:58,070 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-4] In reportData() CustomerStatementController 
+2019-11-29 13:13:58,071 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-4] In readFile() CustomerStatementServiceImpl 
+2019-11-29 13:13:58,072 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-4] In readFileCSV() StatementRepository 
+2019-11-29 13:13:58,073 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-4] In initializeDataFromFile() StatmentUtils 
+2019-11-29 13:40:28,394 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-7] In reportData() CustomerStatementController 
+2019-11-29 13:40:28,396 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-7] In readFile() CustomerStatementServiceImpl 
+2019-11-29 13:40:28,396 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-7] In readFileXML() StatementRepository 
+2019-11-29 13:40:28,397 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-7] In initializeDataFile() StatmentUtils 
+2019-11-29 13:40:30,007 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-8] In reportData() CustomerStatementController 
+2019-11-29 13:40:30,019 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-8] In readFile() CustomerStatementServiceImpl 
+2019-11-29 13:40:30,020 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-8] In readFileXML() StatementRepository 
+2019-11-29 13:40:30,021 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-8] In initializeDataFile() StatmentUtils 
+2019-11-29 13:45:07,679 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(15)-127.0.0.1] Application shutdown requested.
+2019-11-29 13:45:07,683 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(15)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 13:51:09,960 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProjectRoboBankApplication on DESKTOP-O1B8D53 with PID 11660 (D:\STS_Workspaces\Workspaces\Project_RoboBank\target\classes started by Suraj Gupta in D:\STS_Workspaces\Workspaces\Project_RoboBank)
+2019-11-29 13:51:09,966 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-29 13:51:11,093 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8096 (http)
+2019-11-29 13:51:11,102 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8096"]
+2019-11-29 13:51:11,102 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-11-29 13:51:11,103 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-29 13:51:11,194 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-11-29 13:51:11,194 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1165 ms
+2019-11-29 13:51:11,472 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 13:51:11,667 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8096"]
+2019-11-29 13:51:11,702 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8096 (http) with context path ''
+2019-11-29 13:51:11,706 INFO org.springframework.boot.StartupInfoLogger [main] Started ProjectRoboBankApplication in 2.333 seconds (JVM running for 4.337)
+2019-11-29 13:51:29,799 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8096-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-29 13:51:29,799 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8096-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-11-29 13:51:29,809 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8096-exec-2] Completed initialization in 10 ms
+2019-11-29 13:51:29,843 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-2] In reportData() CustomerStatementController 
+2019-11-29 13:51:29,844 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-2] In readFile() CustomerStatementServiceImpl 
+2019-11-29 13:51:29,845 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-2] In readFileXML() StatementRepository 
+2019-11-29 13:51:29,846 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-2] In initializeDataFile() StatmentUtils 
+2019-11-29 13:51:51,077 ERROR com.robobank.repository.StatementRepository [http-nio-8096-exec-2] null
+2019-11-29 13:52:18,404 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(7)-127.0.0.1] Application shutdown requested.
+2019-11-29 13:52:18,408 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(7)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 13:52:31,595 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProjectRoboBankApplication on DESKTOP-O1B8D53 with PID 6640 (D:\STS_Workspaces\Workspaces\Project_RoboBank\target\classes started by Suraj Gupta in D:\STS_Workspaces\Workspaces\Project_RoboBank)
+2019-11-29 13:52:31,602 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-29 13:52:32,651 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8096 (http)
+2019-11-29 13:52:32,661 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8096"]
+2019-11-29 13:52:32,662 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-11-29 13:52:32,663 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-29 13:52:32,842 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-11-29 13:52:32,842 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1178 ms
+2019-11-29 13:52:33,126 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 13:52:33,411 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8096"]
+2019-11-29 13:52:33,440 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8096 (http) with context path ''
+2019-11-29 13:52:33,446 INFO org.springframework.boot.StartupInfoLogger [main] Started ProjectRoboBankApplication in 2.433 seconds (JVM running for 3.339)
+2019-11-29 13:52:39,680 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8096-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-29 13:52:39,680 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8096-exec-2] Initializing Servlet 'dispatcherServlet'
+2019-11-29 13:52:39,687 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8096-exec-2] Completed initialization in 7 ms
+2019-11-29 13:52:39,721 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-2] In reportData() CustomerStatementController 
+2019-11-29 13:52:39,722 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-2] In readFile() CustomerStatementServiceImpl 
+2019-11-29 13:52:39,723 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-2] In readFileXML() StatementRepository 
+2019-11-29 13:52:39,724 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-2] In initializeDataFile() StatmentUtils 
+2019-11-29 13:53:21,655 ERROR com.robobank.repository.StatementRepository [http-nio-8096-exec-2] null
+2019-11-29 13:53:38,221 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-3] In reportData() CustomerStatementController 
+2019-11-29 13:53:38,222 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-3] In readFile() CustomerStatementServiceImpl 
+2019-11-29 13:53:38,222 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-3] In readFileXML() StatementRepository 
+2019-11-29 13:53:38,222 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-3] In initializeDataFile() StatmentUtils 
+2019-11-29 14:00:30,133 ERROR com.robobank.repository.StatementRepository [http-nio-8096-exec-3] null
+2019-11-29 14:00:59,083 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(16)-127.0.0.1] Application shutdown requested.
+2019-11-29 14:00:59,087 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(16)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 14:01:18,428 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProjectRoboBankApplication on DESKTOP-O1B8D53 with PID 2488 (D:\STS_Workspaces\Workspaces\Project_RoboBank\target\classes started by Suraj Gupta in D:\STS_Workspaces\Workspaces\Project_RoboBank)
+2019-11-29 14:01:18,434 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-29 14:01:19,455 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8096 (http)
+2019-11-29 14:01:19,464 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8096"]
+2019-11-29 14:01:19,465 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-11-29 14:01:19,466 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-29 14:01:19,651 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-11-29 14:01:19,651 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1165 ms
+2019-11-29 14:01:19,972 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 14:01:20,299 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8096"]
+2019-11-29 14:01:20,332 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8096 (http) with context path ''
+2019-11-29 14:01:20,338 INFO org.springframework.boot.StartupInfoLogger [main] Started ProjectRoboBankApplication in 2.513 seconds (JVM running for 3.296)
+2019-11-29 14:03:42,758 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8096-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-29 14:03:42,759 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8096-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-11-29 14:03:42,768 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8096-exec-1] Completed initialization in 9 ms
+2019-11-29 14:03:42,808 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-1] In reportData() CustomerStatementController 
+2019-11-29 14:03:42,808 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-1] In readFile() CustomerStatementServiceImpl 
+2019-11-29 14:03:42,809 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-1] In readFileXML() StatementRepository 
+2019-11-29 14:03:42,810 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-1] In initializeDataFile() StatmentUtils 
+2019-11-29 14:03:42,850 ERROR com.robobank.repository.StatementRepository [http-nio-8096-exec-1] null
+2019-11-29 14:03:45,509 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-3] In reportData() CustomerStatementController 
+2019-11-29 14:03:45,510 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-3] In readFile() CustomerStatementServiceImpl 
+2019-11-29 14:03:45,510 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-3] In readFileXML() StatementRepository 
+2019-11-29 14:03:45,511 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-3] In initializeDataFile() StatmentUtils 
+2019-11-29 14:03:45,521 ERROR com.robobank.repository.StatementRepository [http-nio-8096-exec-3] null
+2019-11-29 14:03:46,638 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-4] In reportData() CustomerStatementController 
+2019-11-29 14:03:46,639 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-4] In readFile() CustomerStatementServiceImpl 
+2019-11-29 14:03:46,640 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-4] In readFileXML() StatementRepository 
+2019-11-29 14:03:46,641 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-4] In initializeDataFile() StatmentUtils 
+2019-11-29 14:03:46,652 ERROR com.robobank.repository.StatementRepository [http-nio-8096-exec-4] null
+2019-11-29 14:03:54,547 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-5] In reportData() CustomerStatementController 
+2019-11-29 14:03:54,548 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-5] In readFile() CustomerStatementServiceImpl 
+2019-11-29 14:03:54,548 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-5] In readFileCSV() StatementRepository 
+2019-11-29 14:03:54,549 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-5] In initializeDataFromFile() StatmentUtils 
+2019-11-29 14:03:55,154 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-6] In reportData() CustomerStatementController 
+2019-11-29 14:03:55,155 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-6] In readFile() CustomerStatementServiceImpl 
+2019-11-29 14:03:55,155 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-6] In readFileCSV() StatementRepository 
+2019-11-29 14:03:55,156 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-6] In initializeDataFromFile() StatmentUtils 
+2019-11-29 14:03:55,799 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-7] In reportData() CustomerStatementController 
+2019-11-29 14:03:55,799 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-7] In readFile() CustomerStatementServiceImpl 
+2019-11-29 14:03:55,800 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-7] In readFileCSV() StatementRepository 
+2019-11-29 14:03:55,801 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-7] In initializeDataFromFile() StatmentUtils 
+2019-11-29 14:03:56,393 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-8] In reportData() CustomerStatementController 
+2019-11-29 14:03:56,394 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-8] In readFile() CustomerStatementServiceImpl 
+2019-11-29 14:03:56,395 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-8] In readFileCSV() StatementRepository 
+2019-11-29 14:03:56,395 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-8] In initializeDataFromFile() StatmentUtils 
+2019-11-29 14:04:01,443 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-9] In reportData() CustomerStatementController 
+2019-11-29 14:04:01,445 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-9] In readFile() CustomerStatementServiceImpl 
+2019-11-29 14:04:01,446 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-9] In readFileXML() StatementRepository 
+2019-11-29 14:04:01,447 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-9] In initializeDataFile() StatmentUtils 
+2019-11-29 14:04:02,394 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-10] In reportData() CustomerStatementController 
+2019-11-29 14:04:02,395 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-10] In readFile() CustomerStatementServiceImpl 
+2019-11-29 14:04:02,396 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-10] In readFileXML() StatementRepository 
+2019-11-29 14:04:02,396 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-10] In initializeDataFile() StatmentUtils 
+2019-11-29 14:04:09,730 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-2] In reportData() CustomerStatementController 
+2019-11-29 14:04:09,731 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-2] In readFile() CustomerStatementServiceImpl 
+2019-11-29 14:04:09,732 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-2] In readFileXML() StatementRepository 
+2019-11-29 14:04:09,732 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-2] In initializeDataFile() StatmentUtils 
+2019-11-29 14:04:10,731 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-1] In reportData() CustomerStatementController 
+2019-11-29 14:04:10,732 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-1] In readFile() CustomerStatementServiceImpl 
+2019-11-29 14:04:10,733 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-1] In readFileXML() StatementRepository 
+2019-11-29 14:04:10,735 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-1] In initializeDataFile() StatmentUtils 
+2019-11-29 14:04:38,384 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-3] In reportData() CustomerStatementController 
+2019-11-29 14:04:38,384 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-3] In readFile() CustomerStatementServiceImpl 
+2019-11-29 14:04:38,386 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-3] In readFileXML() StatementRepository 
+2019-11-29 14:04:38,387 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-3] In initializeDataFile() StatmentUtils 
+2019-11-29 14:10:40,512 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(18)-127.0.0.1] Application shutdown requested.
+2019-11-29 14:10:40,516 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(18)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 14:10:47,584 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProjectRoboBankApplication on DESKTOP-O1B8D53 with PID 7996 (D:\STS_Workspaces\Workspaces\Project_RoboBank\target\classes started by Suraj Gupta in D:\STS_Workspaces\Workspaces\Project_RoboBank)
+2019-11-29 14:10:47,589 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-29 14:10:48,843 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8096 (http)
+2019-11-29 14:10:48,860 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8096"]
+2019-11-29 14:10:48,861 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-11-29 14:10:48,861 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-29 14:10:48,958 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-11-29 14:10:48,959 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1294 ms
+2019-11-29 14:10:49,239 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 14:10:49,445 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8096"]
+2019-11-29 14:10:49,481 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8096 (http) with context path ''
+2019-11-29 14:10:49,486 INFO org.springframework.boot.StartupInfoLogger [main] Started ProjectRoboBankApplication in 2.545 seconds (JVM running for 3.701)
+2019-11-29 14:12:14,123 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
+2019-11-29 14:12:14,127 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(10)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-29 14:12:20,947 DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator [background-preinit] Loaded expression factory via original TCCL
+2019-11-29 14:12:21,071 INFO org.springframework.boot.StartupInfoLogger [main] Starting ProjectRoboBankApplication on DESKTOP-O1B8D53 with PID 7936 (D:\STS_Workspaces\Workspaces\Project_RoboBank\target\classes started by Suraj Gupta in D:\STS_Workspaces\Workspaces\Project_RoboBank)
+2019-11-29 14:12:21,074 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2019-11-29 14:12:22,184 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8096 (http)
+2019-11-29 14:12:22,194 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8096"]
+2019-11-29 14:12:22,195 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2019-11-29 14:12:22,195 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-29 14:12:22,285 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2019-11-29 14:12:22,286 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1149 ms
+2019-11-29 14:12:22,558 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-29 14:12:22,783 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8096"]
+2019-11-29 14:12:22,822 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8096 (http) with context path ''
+2019-11-29 14:12:22,827 INFO org.springframework.boot.StartupInfoLogger [main] Started ProjectRoboBankApplication in 2.332 seconds (JVM running for 3.488)
+2019-11-29 14:13:04,119 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8096-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-29 14:13:04,119 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8096-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-11-29 14:13:04,130 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8096-exec-1] Completed initialization in 10 ms
+2019-11-29 14:13:04,173 INFO com.robobank.controller.CustomerStatementController [http-nio-8096-exec-1] In reportData() CustomerStatementController 
+2019-11-29 14:13:04,174 INFO com.robobank.service.CustomerStatementServiceImpl [http-nio-8096-exec-1] In readFile() CustomerStatementServiceImpl 
+2019-11-29 14:13:04,175 INFO com.robobank.repository.StatementRepository [http-nio-8096-exec-1] In readFileXML() StatementRepository 
+2019-11-29 14:13:04,176 INFO com.robobank.utils.StatmentUtils [http-nio-8096-exec-1] In initializeDataFile() StatmentUtils 
+2019-11-29 14:15:35,189 ERROR com.robobank.repository.StatementRepository [http-nio-8096-exec-1] null
